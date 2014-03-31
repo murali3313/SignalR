@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRSample", "SignalRSample.csproj", "{CBAA332C-4052-46D3-B6B6-5C107485E074}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRSample", "SignalRSample/SignalRSample.csproj", "{CBAA332C-4052-46D3-B6B6-5C107485E074}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
