@@ -1,0 +1,7 @@
+install:
+    ydeliver: 
+        tasks:
+            NugetPublish:
+                config:
+                    packages: ["ydeliver.*.nupkg"]
+                    source: "NuGet official package source"

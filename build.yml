@@ -1,0 +1,3 @@
+workflow:
+    default:
+        build:  [Clean, Compile, JsAnalyse]

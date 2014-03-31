@@ -1,0 +1,22 @@
+copyContents:
+    "$rootDir/CommonFunctions":     "$buildPath/tools"
+    "$rootDir/Conventions":     "$buildPath/tools"
+    "$rootDir/Lib":     "$buildPath/tools"
+    "$rootDir/YBuild":     "$buildPath/tools"
+    "$rootDir/YInstall":     "$buildPath/tools"
+    "$rootDir/YScaffold":     "$buildPath/tools"
+    "$rootDir/YDeliver.psm1":     "$buildPath/tools"
+
+packageContents:
+    "$buildPath/tools/*": "YDeliver.zip"
+    "$rootDir/Scoop/scoopInstall.ps1": "YDeliver.zip"
+
+scoop:
+    manifest:
+        url: "http://localhost:8000/YDeliver.zip"
+        homepage: "http://ydeliver.stacktoheap.com"
+        installer: "scoopInstall.ps1"
+    package: "YDeliver.zip"
+
+
+nugetSpecs:     [ydeliver.nuspec]
