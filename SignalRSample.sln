@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRSample", "SignalRSample/SignalRSample.csproj", "{CBAA332C-4052-46D3-B6B6-5C107485E074}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRSample", "SignalRSample\SignalRSample.csproj", "{CBAA332C-4052-46D3-B6B6-5C107485E074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRSample.Js.UnitTests", "SignalRSample.Js.UnitTests\SignalRSample.Js.UnitTests.csproj", "{2AB4B3FE-1E4D-41EF-A62F-AB8F11125E19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{CBAA332C-4052-46D3-B6B6-5C107485E074}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBAA332C-4052-46D3-B6B6-5C107485E074}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBAA332C-4052-46D3-B6B6-5C107485E074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB4B3FE-1E4D-41EF-A62F-AB8F11125E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB4B3FE-1E4D-41EF-A62F-AB8F11125E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB4B3FE-1E4D-41EF-A62F-AB8F11125E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB4B3FE-1E4D-41EF-A62F-AB8F11125E19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
