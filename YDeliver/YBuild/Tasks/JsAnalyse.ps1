@@ -4,5 +4,5 @@ task JsAnalyse -Description 'Run JSHint tool on Script/App' {
 
 	sl $rootDir
 
-	exec {iex "jshint $inputPath"}
+	exec {iex "jshint $inputPath --reporter html"}
 }

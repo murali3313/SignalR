@@ -24,9 +24,9 @@ SignalRChat.prototype = {
     }
 
 };
-//var chat;
-//$(function () {
-//    chat = new SignalRChat($.connection);
-//    chat.initialize();
-//});
+var chat;
+$(function () {
+    chat = new SignalRChat($.connection);
+    chat.initialize();
+});
 
